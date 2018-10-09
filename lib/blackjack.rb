@@ -18,12 +18,13 @@ def get_user_input
   gets.chomp
 end
 
-def end_game
+def end_game(total)
   
 end
 
 def initial_round
-  # code #initial_round here
+  num = deal_card
+  num + deal_card
 end
 
 def hit?
