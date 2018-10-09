@@ -32,6 +32,7 @@ def hit?(total)
   prompt_user
   input = get_user_input
   total += total if input == "h"
+  total
 end
 
 def invalid_command
